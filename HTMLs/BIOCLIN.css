@@ -2,6 +2,7 @@
 body{
     margin: 0;
     font-family: "Roboto", sans-serif;
+    font-size: clamp(0.7rem, 0.5757rem + 0.663vw, 1rem);
 }
 img{
     max-width: 100%;
