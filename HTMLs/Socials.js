@@ -6,16 +6,27 @@ const mediaSets = {
         '../IMG/BlueSky5.mp4'
     ],
     snails: [
-        '../IMG/snail1.gif', '../IMG/snail2.gif', '../IMG/snail3.gif'
+        '../IMG/SNAIL/Snail1.gif','../IMG/SNAIL/Snail2.gif',
+        '../IMG/SNAIL/Snail3.gif','../IMG/SNAIL/Snail4.gif',
+        '../IMG/SNAIL/Snail5.gif','../IMG/SNAIL/Snail6.gif',
     ],
     marqueeTexts: [
-        "isso e um inferno",
-        "Hello World",
-        "Insira texto aqui",
+        "Welcome to hell",
+        "Hello World!",
+        "Remember to put text here",
         "gulp",
-        "Eu não gosto de gente que nunca terminam suas",
-        "Lorem ipsum, dolor sitsjdasuidhaufsdhf",
-        "Whoa-oh-oh-oh-oh-oh-oh-oh-oh-oh--Story of Undertale I fell from the light Talk? Or should I fight? Monster genocide This my Undertale"
+        "I hate people who never end their",
+        "Lorem ipsum, dolor sitsjdasuidhaufsdhfadtafdtyasfd",
+        "Whoa-oh-oh-oh-oh-oh-oh-oh-oh-oh--Story of Undertale I fell from the light Talk? Or should I fight? Monster genocide This my Undertale",
+        "Marquee!!",
+        "funny snail",
+        "I know what you are",
+        "Dink some water",
+        "Eat your greens!",
+        "'Cause I'm a punk rocker, yes I am...",
+        "Behind you",
+        "Hold your horses, pal!!",
+        "FUNCTION: 'getRandomLine' FAILED. RELOAD THIS PAGE IMMEDIATELY."
     ]
 };
 

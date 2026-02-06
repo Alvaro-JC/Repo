@@ -19,6 +19,9 @@ marquee{
     color: white;
     padding: 0.2rem;
 }
+.blur{
+    backdrop-filter: blur(2px);
+}
 #bgvideo{
     position: absolute;
     z-index: -1;
@@ -66,7 +69,6 @@ marquee{
             background: linear-gradient(180deg, var(--main-black-rgb) 0%, var(--sec-black-trans) 100%);
             padding: 1.4rem;
             border-radius: 20px;
-            backdrop-filter: blur(2px);
             box-shadow: 0px 3px 0px var(--sec-black), 0px 3px 0px rgba(161, 74, 255, 0.497) inset;
         }
         .socialitem {
@@ -121,6 +123,10 @@ marquee{
             text-decoration-color: var(--dark-beige);
             text-decoration-thickness: 0.071em;
         }
+        .cadernotxt li::marker{
+            list-style-type:square;
+            color: var(--dark-beige);
+        }
 
 /*mid mobile*/
     @media (max-width: 768px){
@@ -145,7 +151,6 @@ marquee{
         #snailguy img{
             width: 10rem;
             height: 10rem;
-            background-color: #3498db;
             }
         .caderno {
             width: 40vw;
@@ -157,17 +162,19 @@ marquee{
     background: linear-gradient(180deg, var(--sec-black-trans) 0%, var(--main-black-rgb) 100%);
     text-align: center;
     padding: 1rem;
-    backdrop-filter: blur(2px);
             --mask:
     radial-gradient(2.24rem at 50% 3rem,#000 99%,#0000 101%) calc(50% - 2rem) 0/4rem 100%,
     radial-gradient(2.24rem at 50% -2rem,#0000 99%,#000 101%) 50% 1rem/4rem 100% repeat-x;
             -webkit-mask: var(--mask);
             mask: var(--mask);
 }
-    #footdiv p {
+    #footdiv p{
     color: white;
     margin: 0.4rem 0 0 0;
     font-size: 0.9rem;
+    }
+    #footdiv h2{
+    color: white;
     }
 
 ::-webkit-scrollbar{
